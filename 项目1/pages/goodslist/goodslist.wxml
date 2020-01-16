@@ -1,0 +1,4 @@
+<block wx:for="{{goods}}" wx:key="id"  wx:for-item="item" >
+  <!-- <M-addgoods good="{{item}}" goodid="{{item.goodid}}" goodimg="{{item.goodimg}}" goodname="{{item.goodname}}" goodinfo="{{item.goodinfo}}" goodprice="{{item.goodprice}}"/> -->
+<M-addgoods good="{{item}}"/>
+</block>

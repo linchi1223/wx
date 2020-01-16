@@ -1,0 +1,6 @@
+/* pages/index/index.wxss */
+
+button {
+  width: 100% !important;
+  margin: 10rpx;
+}

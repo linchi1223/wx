@@ -1,0 +1,6 @@
+<!--pages/index/index.wxml-->
+
+<M-search newgoods="{{newgoods}}" class="search" />
+<view class="header"></view>
+<M-swiper bgimg="{{bgimg}}" class="swiper" />
+

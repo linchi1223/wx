@@ -1,0 +1,17 @@
+<!--components/good/good.wxml-->
+<!-- 单个商品 -->
+<view class="good">
+  <view class="img">
+    <image src="{{good.goodimg}}" mode="aspectFit"></image>
+  </view>
+  <view class="info">
+    <view class="infoL">
+      <view class="goodname">{{good.goodname}}</view>
+      <view class="goodinfo">{{good.goodinfo}}</view>
+      <view class="goodprice">¥ {{good.goodprice}}</view>
+    </view>
+    <view class="infoR">
+      <view class="addcar">+</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "M-search": "/components/search/search",
+    "M-swiper": "/components/swiper/swiper"
+  }
+}

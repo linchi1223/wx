@@ -1,0 +1,3 @@
+<input placeholder="ID" bindinput="idinput"></input>
+<input placeholder="age" bindinput="addage"></input>
+<button  bindtap="changeData">更改数据</button>

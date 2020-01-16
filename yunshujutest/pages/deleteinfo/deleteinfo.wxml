@@ -1,0 +1,2 @@
+<input placeholder="ID" bindinput="idinput"></input>
+<button bindtap="deleteData">删除数据</button>

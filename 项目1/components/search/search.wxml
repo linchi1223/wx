@@ -1,0 +1,16 @@
+<!--components/search/search.wxml-->
+<!-- 搜索栏首页没有搜索功能 -->
+
+<view class="header">
+  <view class="Scan" mode="aspectFit">
+    <image src="/img/icon/Scan.png"></image>
+  </view>
+  <view class="search" catchtap="searchbtn">
+    <image src="/img/icon/search.png"></image>
+    <text>{{newgoods}}</text>
+  </view>
+  <view class="message" mode="aspectFit">
+    <image src="/img/icon/message.png"></image>
+    <view class="tip" style="display: {{tip}};"></view>
+  </view>
+</view>

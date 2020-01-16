@@ -1,0 +1,3 @@
+<!--pages/search/search.wxml-->
+
+<M-search2 newgoods="{{newgoods}}"/>

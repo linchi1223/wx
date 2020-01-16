@@ -1,0 +1,4 @@
+<button bindtap="addinfo">添加数据</button>
+<button bindtap="deleteinfo">删除数据</button>
+<button bindtap="changeinfo">修改数据</button>
+<button bindtap="searchinfo">查询数据</button> 

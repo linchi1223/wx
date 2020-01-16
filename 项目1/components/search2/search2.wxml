@@ -1,0 +1,10 @@
+<!--components/search2/search2.wxml-->
+
+<view class="header">
+  <view class="search">
+    <image src="/img/icon/search.png"></image>
+    <input auto-focus="true" placeholder="{{newgoods}}"></input>
+    <image src="/img/icon/close.png" class="clear" style="display:{{clear}}"></image>
+  </view>
+  <view class="cancel" catchtap="searchbtn">取消</view>
+</view>

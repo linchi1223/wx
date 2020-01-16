@@ -1,0 +1,54 @@
+/* components/search/search.wxss */
+
+.header {
+  width: 730rpx;
+  height: 80rpx;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10rpx;
+}
+
+.header .Scan, .header .message {
+  height: 80rpx;
+  width: 80rpx;
+  text-align: center;
+}
+
+.header .search {
+  height: 60rpx;
+  width: 560rpx;
+  box-sizing: border-box;
+  border-radius: 25rpx;
+  margin: 10rpx 0;
+  display: flex;
+  padding: 0 10rpx;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #aaa;
+  font-size: 30rpx;
+  line-height: 60rpx;
+}
+
+.header image {
+  /* 配合mode="aspectFit" */
+  height: 60%;
+  width: 60%;
+  margin-top: 15rpx;
+}
+
+.header .search image {
+  height: 40rpx;
+  width: 40rpx;
+  margin-top: 10rpx;
+}
+
+.header .message .tip {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  height: 15rpx;
+  width: 15rpx;
+  position: absolute;
+  margin-top: -60rpx;
+  margin-left: 55rpx;
+}
+

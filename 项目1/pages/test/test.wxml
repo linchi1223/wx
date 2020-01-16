@@ -1,0 +1,6 @@
+<!--pages/test/test.wxml-->
+<view wx:for="">
+<image src="/img/icon/">
+</image>
+<text>{{text}}</text>
+</view>

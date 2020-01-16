@@ -1,0 +1,50 @@
+/* components/search2/search2.wxss */
+
+.header {
+  width: 750rpx;
+  height: 80rpx;
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  /* padding: 0 10rpx; */
+}
+
+.header .cancel {
+  width: 100rpx;
+  height: 80rpx;
+  /* background-color: yellow; */
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 30rpx;
+}
+
+.header .search {
+  width: 650rpx;
+  height: 60rpx;
+  /* background-color: palevioletred; */
+  box-sizing: border-box;
+  border: 1px solid #e3e3e3;
+  border-radius: 25rpx;
+  margin: 10rpx 0 10rpx 20rpx;
+  padding: 0 10rpx;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.header .search image {
+  height: 40rpx;
+  width: 40rpx;
+  margin-top: 9rpx;
+}
+
+.header .search input {
+  height: 56rpx;
+  width: 500rpx;
+  padding: 0 10rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+}
