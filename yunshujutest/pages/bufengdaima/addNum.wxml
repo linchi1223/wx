@@ -1,0 +1,5 @@
+<!--pages/addNum/addNum.wxml-->
+
+<button bindtap="qiuhe">加</button>
+运用云端add函数
+<button bindtap="openid">获取用户openid</button>

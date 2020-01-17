@@ -1,0 +1,7 @@
+<button bindtap="qiuhe">加</button>
+运用云端add函数
+<button bindtap="openid">获取用户openid</button>
+<button bindtap="shujuku">获取shuju </button>
+api最多20条,只能操作自己的数据
+<button bindtap="yunhanshu">云函数获取shuju </button>
+超出20条,可以点赞,发短信,发消息

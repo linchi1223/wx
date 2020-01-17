@@ -5,6 +5,8 @@ App({
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
+
+    //重要初始化
     wx.cloud.init({
       env: "yuntest-intd7"
     })

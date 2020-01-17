@@ -4,7 +4,8 @@
     "pages/addinfo/addinfo",
     "pages/deleteinfo/deleteinfo",
     "pages/changeinfo/changeinfo",
-    "pages/searchinfo/searchinfo"
+    "pages/searchinfo/searchinfo",
+    "pages/demo/demo"
   ],
   "window": {
     "backgroundTextStyle": "light",
